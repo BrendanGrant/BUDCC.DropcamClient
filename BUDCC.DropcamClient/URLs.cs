@@ -18,6 +18,7 @@ namespace BUDCC.DropcamClient
         public static string GetDetailedCameraInfo = "https://www.dropcam.com/app/cameras/{0}";
         public static string SetCameraProperty = "https://www.dropcam.com/app/cameras/properties/{0}";
         public static string GetCuePoint = "https://nexusapi-us1.camera.home.nest.com/cuepoint/{0}/2?";
+        public static string GetCuePointEx = "https://nexusapi-us1.camera.home.nest.com/cuepoint/{0}/2?start_time={1}&_={2}";
 
         public static string GetImage(CameraInformation camera)
         {
